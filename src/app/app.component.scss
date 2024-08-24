@@ -1,0 +1,387 @@
+#tela {
+    height: 100%;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 20px;
+}
+
+.metadeDaTela {
+    height: 45%;
+   
+}
+
+.tela1 {
+    flex-direction: row;
+}
+.tela2 {
+    flex-direction: row;
+}
+
+#cardDireita {
+    background-color: red;
+    width: 28%;
+}
+
+#cardEsquerda {
+    background-color: rgb(230, 19, 208);
+    width: 70%;
+}
+
+.h {margin: 0;}
+.font {font-size: x-small;}
+
+.afe::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 40px;
+    left: 450px;
+    border: solid grey 1px;
+    border-top-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+}
+
+
+.afe::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 40px;
+    left: 576px;
+    border: solid grey 1px;
+    border-top-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+}
+
+.divAfe::after {
+    content: "";
+    position: relative;
+    display: flex;
+    background:  #172554;
+    border: solid 1px  #172554;
+    width: 17px;
+    height: 90%;
+    left: 120px;
+    bottom: 125px;
+    padding: 5px;
+    border-radius: 0px 10px 10px 0px;
+    z-index: 0;
+}
+
+.pequeno {
+    font-size: 10px;
+    margin: -7px;
+}
+
+.w900{
+    font-weight: 900;
+    font-size: 14px;
+    margin: 0;
+}
+
+.img {
+    // position: relative;
+    // bottom: 40px;
+    width: 100px;
+    height: 100px;
+}
+
+.m{
+    position: relative;
+    top: 30px;
+    margin-left: 130px;
+    width: 100%;
+    font-size: small;
+    font-weight: 900;
+}
+
+.img-2 {
+    width: 200px;
+    height: 200px;
+}
+
+.divH1 {
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+}
+
+.divH1-2 {
+    font-size: small;
+    margin: 0;
+    width: 61px;
+    height: 19px;
+}
+
+.divP {
+    text-align: center;
+    margin-top: 4%;
+    font-size: small;
+    color: rgb(99, 99, 99);
+}
+
+.divP-2 {
+    font-size: 10px;
+    margin: 0;
+    width: 72px;
+}
+
+.tamanhoTela {
+    height: 115%;
+}
+
+.home {
+    background-color: rgb(26, 104, 222);
+    margin-left: 1%;
+    border-radius: 100%;
+    position: relative;
+}
+
+.h1 {
+    font-size: 11px;
+}
+
+.h1-1 {
+    height: 12px;
+}
+.home1{
+    z-index: 0;
+    background-color: red;
+    left: 13px;
+}
+
+.home2{
+    z-index: 1;
+    left: 6px;
+}
+
+.home3{
+    z-index: 2;
+    background-color: yellow;
+}
+
+.home4{
+    z-index: 3;
+    background-color: yellowgreen;
+    right: 7px;
+}
+
+.depois {
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    border-radius: 7px 0px 0px 0px;
+    // border-top-left-radius: 20px;
+    // border-top-right-radius: 20px;
+    border: solid 1px black;
+    bottom: 60px;
+    right: 230px;
+    border-bottom-style: none;
+    border-right-style: none;    
+}
+
+.mat-left {
+    left: 17rem;
+}
+
+.linha {
+    position: relative;
+    border: solid 1px #172554;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+.linha1 {
+    width: 40px;
+    left: 150px;
+    bottom: 80px;
+}
+
+.linha2 {
+    width: 20px;
+    left: 188px;
+    bottom: 76.4px;
+    transform: rotate(30deg);
+    border-right-style: solid;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.linha3 {
+    width: 40px;
+    left: 186px;
+    bottom: 52.6px;
+    transform: rotate(90deg);
+}
+
+.customColor{border: solid 1px #c5d1d5; position: absolute;}
+
+.customLinha1 {
+    width: 70px;
+    top: 560px;
+    left: 720px;
+    border-left-style: none;
+    border-bottom-style: none;
+    border-right-style: none;    
+}
+
+.customLinha2 {
+    height: 30px;
+    top: 554px;
+    left: 709px;
+    transform: rotate(50deg);
+
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.customLinha3 {
+    height: 69px;
+    top: 579px;
+    left: 698px;
+
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.customLinha4 {
+    height: 12px;
+    top: 677.5px;
+    left: 698px;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-style: none;
+}
+
+.celular {
+    border-radius: 40px;
+    border: solid 9px black;
+    z-index: 0;
+
+    &-camera {
+        position: absolute;
+        width: 100px;
+        height: 20px;
+        background-color: #172554;
+        border-radius: 0 0 15px 15px;
+    }
+
+    .tamanho {
+        width: 317px;
+        z-index: 1;
+        bottom: 120px;
+
+        &-text {z-index: 2;}
+    }
+
+    .pequenoP {
+        font-size: 10px;
+        margin: -5px;
+    }
+
+    &_home {
+        background-color: rgb(71, 0, 251);
+        border-radius: 6px;
+    }
+}
+
+.person-img{height: 300px;}
+
+
+@media (max-width: 1023px) {
+    .divButton{gap: 1.5rem;}
+    .person{width: 13rem;}
+    .person-img{height: 300px;}
+    
+    .afe::after{left: 440px;}
+    .afe::before{left: 340px;}
+    .mat-left{left: 10.5rem}
+    .celular-text{padding: 0.7rem 0.5rem 0 0.5rem;}
+    .card-rosa{padding: 0.5rem; gap: 0; width: 109%;}
+    .divAfe::after{left: 92px; bottom: 125px; height: 110px; width: 12px;}
+    .linha1{left: 110px; width: 25px;}
+    .linha2{left: 130px; bottom: 76px; width: 15px; transform: rotate(65deg);}
+    .linha3{left: 120px;}
+    .m{top: 20px; margin-left: 95px; font-size: x-small;}
+    .text-div{width: 36%; .divH1{font-size: large; margin: -11px;}}
+    .customLinha1{left: 480px; top: 560px;}
+    .customLinha2{left: 468px; top: 555px;}
+    .customLinha3{left: 457px; top: 579px;}
+    .customLinha4{left: 457px; top: 680px;}
+    .celular .tamanho{width: 231px; height: 147px;}
+    .celular{height: 100%; margin-left: 44px;}
+    .card-rosa-todo{width: 100%; h2{font-size: 24px;} p{font-size: 18px;margin: -4px;}}
+
+} 
+
+@media (max-width: 767px) {
+    .tamanhoTela{height: 390%;width: 100vw;}
+    .parte-1-tela{display: flex;flex-direction: column;align-items: center;height: 300%;width: 92vw;}
+    .person{margin-bottom: 70px; width: 100%;}
+    .person-img{height: 90%;}
+    .parte-2-tela{flex-direction: column; margin-top: 950px; width: 92vw;height: 1000px;align-items: center; gap:5.5rem;}
+    .parte-2-tela_2{flex-direction: column; align-items: center; width: 100%;}
+    .celular{margin: 10px 0;height: 445px; width: 272px;}
+    .celular-camera{top: 140.5%;}
+    .mat-left{left: 271.5px;}
+    .afe::after{left: 135px;}
+    .afe::before{left: 271px;}
+    .celular .tamanho{position: absolute;right: 51px;top: 187%;width: 288px;}
+    .div-foto-final{flex-direction: column-reverse;width: 100%; align-items: center;}
+    .divAfe{bottom: -1.25rem; height: 200px;.img{width: 150px;height: 188px;} .m{margin: 0 0 0 195px;}}
+    .divAfe::after{left: 180px; height: 180px; bottom: 197px;}
+    .text-div{width: 100%;}
+    .nome{right: -5.5rem; top: 100px;}
+    main nav{display: inline; a{color: black;}}
+    // .divH1{font-size: 14px;}
+    // .divP{font-size: medium;}
+}
+
+@media (min-width: 1280px) {
+    .afe::after{left: 550px;}
+    .afe::before{left: 740px;}
+
+    .customLinha1{left: 876px; top: 560px;border-width: 2px;}
+    .customLinha2{left: 865px; top: 555px;border-width: 2px;}
+    .customLinha3{left: 854px; top: 579px;border-width: 2px;}
+    .customLinha4{left: 854px; top: 680px;border-width: 2px;}
+
+    .divAfe::after{left: 155px; bottom: 125px; height: 110px; width: 12px;}
+    .linha1{left: 175px; width: 40px;}
+    .linha2{left: 209px; bottom: 73px; width: 20px; transform: rotate(65deg);}
+    .linha3{left: 203px; bottom: 46px;}
+
+    .m{ margin-left: 170px;}
+    .mat-left{left: 21.5rem}
+    .celular .tamanho{width: 393px;}
+    .person-img{height: 300px;}
+
+}
+
+@media (min-width: 1536px) {
+    .celular .tamanho{width: 469px;}
+    .div-foto-final{justify-content: end;}
+
+    .customLinha1{left: 1211px; top: 560px;border-width: 2px;}
+    .customLinha2{left: 1198px; top: 555px;border-width: 2px;}
+    .customLinha3{left: 1188px; top: 579px;border-width: 2px;}
+    .customLinha4{left: 1188px; top: 680px;border-width: 2px;}
+
+    .divAfe::after{left: 185px; bottom: 125px; height: 110px; width: 12px;}
+    .linha1{left: 200px; width: 40px;}
+    .linha2{left: 235px; bottom: 73px; width: 20px; transform: rotate(65deg);}
+    .linha3{left: 230px; bottom: 46px;}
+
+    .m{ margin-left: 200px;}
+
+
+}
